@@ -1,0 +1,15 @@
+<h1>Editing Picture</h1>
+
+  <% form_for :user, @user, :url => user_path, :html => { :multipart => true } do |form| %>
+    <%= form.file_field :avatar %>
+  
+
+    <p>
+      <%= form.submit 'Update' %>  
+    <p>
+  <% end %>
+
+
+
+<%= link_to 'Show', @user %> |
+<%= link_to 'Back', users_path %>

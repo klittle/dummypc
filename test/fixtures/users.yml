@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+   name: MyString
+  avatar_file_name: MyString
+  avatar_content_type: MyString
+
+two:
+   name: MyString
+  avatar_file_name: MyString
+  avatar_content_type: MyString
